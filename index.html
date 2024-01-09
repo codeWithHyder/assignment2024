@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Chart Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+     <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <!-- app- container -->
+    <div class="app-container">
+        <!-- left-side--vertical menu -->
+      <div class="left-side-menu">
+         <ul class="list-menu">
+            <li><a href="#">🦋</a></li>
+            <li><a href="#">🔎</a></li>
+            <li><a href="#">🏠</a></li>
+            <li><a href="#">📃</a></li>
+            <li><a href="#">🙎‍♂️</a></li>
+         </ul>
+      </div>
+
+      <!-- left-panel -->
+      <div class="left-side-panel">
+       
+        <div class="img"><img src="https://as1.ftcdn.net/v2/jpg/03/75/57/66/1000_F_375576687_tnCxwdZkFLOUpz870D27147iVUtJHC30.jpg" alt="human"> <div class="inner-name"><span style="font-weight: bold;">Hyder<br>Welcome back</span></div></div>
+        <h4>Today</h4>
+        <p>$ 19,892</p>
+        <p style="color:grey; font-size:small">Account balance</p>
+        <h4>$ 4,000</h4>
+        <p style="color:grey; font-size:small">Year-to-date-balance</p>
+        <h4>$ 1,892</h4>
+        <p style="color:grey; font-size:small">Total amount</p>
+        <button type="submit" class="btn">I want to 🔽</button><br><br>
+        <p style="font-weight: bold;">Recent Transactions</p>
+        <p style="color:grey; font-size: small">2020-08-07</p>
+        <P>Withdrawal To Bank-xxx11</P>
+        <p style="color:grey; font-size: small">2020-07-21</p>
+        <P>Withdrawal To Bank-xxx11</P>
+        <p style="color:grey; font-size: small">2020-07-16</p>
+        <P>Withdrawal To Bank-xxx11</P>
+      </div>
+
+      <!-- center-panel -->
+      <div class="center-panel">
+        <p style="color: blue; font-family:sans-serif; margin-bottom:0;">Retirement Income</p>
+        <h5 style="font-size: larger; margin-top:0;">Starting Year 2056</h5>
+        <div class="goal">
+            <div>
+                <p style="font-weight: bold; margin-bottom:1px;">$30,0000</p>
+                <p style="color:grey; font-size: small">My Goal</p>
+                <hr>
+            </div>
+            <div style="font-weight: bold; margin-bottom:1px; margin-left: 45px;">
+                <p >59%</p>
+                <p style="color:grey; font-size: small">Goal Achieved</p>
+                <hr>
+            </div>
+            <div style="font-weight: bold; margin-bottom:1px; margin-left: 45px;">
+                <p>$ 300</p>
+                <p style="color:grey; font-size: small">Est. Monthly Income</p>
+                <hr>
+            </div>
+        </div>
+        <h4 style="text-align: left;">Contributions Overtime</h4>
+
+        <canvas id="myChart" class="canvas"></canvas>
+        <script src="script.js"></script>
+        <h3>How I Compare to my Peers</h3>
+        <p style="color:grey; font-size: small">These numbers represent current goal achievement?</p>
+        <div style="display: flex;">
+            <div>
+            <p>Age: under 30 🔽</p><hr>
+            <p>Salary: k20 -k30 🔽</p><hr>
+            <p>Gender: Male 🔽</p><hr>
+            </div>
+            <div style="margin-top: 3rem; margin-left: 2rem">
+                <span style="border: 4px solid rgb(135, 221, 135); padding:1.5rem; border-radius:80%; width: 30px; height: 30px; margin-left:1rem;">70% </span>
+                <span style="border: 4px solid rgb(139, 218, 139); padding:1.5rem; border-radius:80%; width: 30px; height: 30px; margin-left:1rem;">95%</span>
+                <span style="border: 4px solid rgb(139, 214, 139); padding:1.5rem; border-radius:80%; width: 30px; height: 30px; margin-left:1rem;">59%</span>
+            </div>
+        </div>
+      </div>
+
+      <!-- right panel -->
+      <div class="right-panel">
+        <div class="right-panel1">
+            <h4 class="margin-bottom: 2px;">Retirement Stratgy</h4>
+            <div>
+                <p class="margin-top: 1px; color:grey; font-size:small;">Employee Contribution</p>
+                <p><input type="range"><span>12%</span></p>
+            </div>
+            <div>
+            <p>Retirement Age</p>
+            <p><input type="range"><span>65</span></p><hr style="width: 100%; height: 0.5px;  color: rgb(238, 233, 233);">
+            <p>Employer Contribution &nbsp;&nbsp;&nbsp; &nbsp;<span>8.4%</span></p>
+            <p>Interest Rate &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;<span>5%</span></p>
+            </div>
+            <div><button type="submit" class="btn-update">Update</button></div>
+            <div style="margin-top: 2rem; font-family:sans-serif; color:rgb(106, 106, 189); font-size:smaller"><span>View help Docs ></span></div>
+        </div>
+        <div class="housing-adv">
+            <p style="margin-top: 15px;">Are you considering a</p>
+            <h4 style="margin-top: 0;">Housing Advance ?</h4>
+            <p style="color: grey; font-size:small">Limited time reduced Interest</p>
+            <p style="color: rgb(138, 138, 223); font-family:sans-serif; font-size:small;">Learn More ></p>
+        </div>
+      </div>
+    
+
+   
+    </div>
+</body>
+
+</html>
